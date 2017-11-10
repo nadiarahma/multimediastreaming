@@ -28,6 +28,8 @@
 	<!-- AdminLTE Skins. Choose a skin from the css/skins
 	   folder instead of downloading all of them to reduce the load. -->
 	<link rel="stylesheet" href="{{URL::asset('dist/css/skins/_all-skins.min.css')}}">
+
+	<link rel="stylesheet" href="{{URL::asset('js/dev/getHTMLMediaElement.css') }}">
 	<!-- sweet alert css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.min.css">
