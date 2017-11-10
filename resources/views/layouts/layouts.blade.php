@@ -79,6 +79,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.common.min.js.map"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.min.js"></script>
+	<script src="{{ URL::asset('js/demos/menu.js') }}"></script>
+	<script src="{{ URL::asset('js/dist/RTCMultiConnection.min.js') }}"></script>
+	<script src="{{ URL::asset('js/dev/adapter.js') }}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+	<script src="{{ URL::asset('js/dev/getHTMLMediaElement.js') }}"></script>
+	<script src="https://cdn.webrtc-experiment.com/common.js"></script>
 	<!-- page script -->
 	<div>
 		@yield('javas')
